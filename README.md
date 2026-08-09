@@ -6,6 +6,8 @@ MA3ArenaDeck mirrors your Resolume Arena / Avenue clip deck on a grandMA3 layout
 
 Ideal for busking, hybrid lighting + video shows, and keeping the media operator’s deck visible (and optionally playable) on the lighting surface.
 
+A grandMA2 Layout View port lives in [`ma2/`](ma2/README.md).
+
 ![image](MA3ArenaDeck_Screenshot.png)
 
 ---
