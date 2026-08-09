@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GMA3 DataVersion="2.2.1.1">
+    <!--
+      External plugin (not embedded in the showfile).
+
+      Install folder (recommended):
+        gma3_library/datapools/plugins/MA3ArenaDeck/
+
+      Import this XML, then verify on the ComponentLua:
+        - Installed = Yes
+        - FileName  = MA3ArenaDeck.lua
+        - Path      = MA3ArenaDeck   (must match the folder name)
+
+      After editing the .lua on disk:
+        ReloadAllPlugins
+      You should see: MA3ArenaDeck: v... starting
+
+      NOTE: Paste/import into the Lua editor embeds the code (InStream).
+      That path has a size limit and ReloadAllPlugins will NOT pick up
+      disk edits. Keep Installed=Yes / external file.
+    -->
+    <UserPlugin Name="MA3ArenaDeck" Version="0.1.0.0" Author="Simon Kotting" Path="MA3ArenaDeck">
+        <ComponentLua Name="MA3ArenaDeck" FileName="MA3ArenaDeck.lua"/>
+    </UserPlugin>
+</GMA3>
